@@ -109,29 +109,6 @@ lecturers = [cool_lecturer, second_lecturer]
 
 
 
-# cool_lecturer.courses_attached += ['Python']
-#
-# second_lecturer.courses_attached += ['Git', 'Python']
-#
-#
-# best_student.rate_lecturer(cool_lecturer, 'Python', 8)
-# best_student.rate_lecturer(second_lecturer, 'Python', 8)
-# best_student.rate_lecturer(second_lecturer, 'Git', 8)
-#
-#
-# cool_mentor = Mentor('Some', 'Buddy')
-# second_mentor = Mentor('Second', 'Mentor')
-# cool_mentor.courses_attached += ['Python']
-
-
-
-
-# cool_reviewer.rate_hw(best_student, 'Python', 8)
-# cool_reviewer.rate_hw(second_student, 'Git', 10)
-#
-# student_list = [best_student, second_student]
-# lecturers_list = [cool_lecturer, second_lecturer]
-
 def avg_students(students_list):
     new_list = []
     for student in students_list:
